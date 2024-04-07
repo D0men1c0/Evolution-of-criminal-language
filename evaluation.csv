@@ -1,9 +1,0 @@
-,value
-eval_loss,0.4645111858844757
-eval_f1,0.2650103519668737
-eval_roc_auc,0.5636295180722891
-eval_accuracy,0.1927710843373494
-eval_runtime,98.0525
-eval_samples_per_second,3.386
-eval_steps_per_second,0.428
-epoch,5.0
