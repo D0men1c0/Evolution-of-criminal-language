@@ -10,6 +10,7 @@ In analyzing the QANON dataset, several tasks were undertaken to extract meaning
 - Gensim
 - Scikit-learn
 - TensorFlow
+- Transformers
 
 ### Structured Data Analysis
 - Analyzed columns such as author, source, date, link, and image reference.
@@ -32,6 +33,11 @@ In analyzing the QANON dataset, several tasks were undertaken to extract meaning
 - Utilized SVC, Random Forest, and LSTM models for classification.
 - SVC with linear kernel demonstrated efficiency with word embeddings, yielding around 0.8 AUC.
 - LSTM model showed poor results, suggesting potential for improvement with better preprocessing and layer selection.
+
+### BERT Approach
+- Used the transformers library to label text with criminal topics using a pre-trained BERT model.
+- Performed classification using previously found labels and exploiting a BERT model on which fine tuning was performed.
+- AUC 60%
 
 ## Conclusion
 The comprehensive analysis and machine learning approach provided insights into the QANON dataset, offering opportunities for further refinement and exploration.
