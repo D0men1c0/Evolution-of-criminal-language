@@ -10,6 +10,7 @@ In analyzing the QANON dataset, several tasks were undertaken to extract meaning
 - Gensim
 - Scikit-learn
 - TensorFlow
+- Torch
 - Transformers
 
 ### Structured Data Analysis
